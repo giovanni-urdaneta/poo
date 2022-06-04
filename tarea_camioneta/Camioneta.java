@@ -19,12 +19,13 @@ public class Camioneta {
 	boolean vidrios_ahumados;
 	
 	// metodos
-	public Camioneta() { //constructor
+	public Camioneta(color) { //constructor
 		ruedas = 4;
 		ancho = 400;
 		largo = 2000;
 		peso = 600;
 		asientos = 5;
+		this.color = color;
 	}
 	
 	//metodos setter
@@ -109,6 +110,7 @@ public class Camioneta {
 	}
 	public String imprimir_caracteristicas() {
 		return "\ncaracteristicas de la camioneta: " + 
+				"\n> color --> " + this.color +
 				imprimir_ruedas() + 
 				imprimir_ancho() + 
 				imprimir_largo() + 
