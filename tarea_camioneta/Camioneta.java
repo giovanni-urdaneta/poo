@@ -73,7 +73,7 @@ public class Camioneta {
 		return "> asientos --> " + asientos;
 	}
 	public String imprimir_fecha_fabricacion() {
-		return "> fecha_fabricacion --> " + fecha_fabricacion;
+		return "> fecha de fabricacion --> " + fecha_fabricacion;
 	}
 	public String imprimir_traccion() {
 		if(traccion_automatica) {
