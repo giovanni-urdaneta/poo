@@ -107,7 +107,7 @@ public class Camioneta {
 			return "> no tiene vidrios ahumados";
 		}
 	}
-	public String dar_caracteristicas_generales() {
+	public String imprimir_caracteristicas() {
 		return "caracteristicas de la camioneta: \n" + 
 				imprimir_ruedas() + "\n" +
 				imprimir_ancho() + "\n" +
