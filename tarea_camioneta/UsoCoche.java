@@ -14,7 +14,7 @@ public class UsoCoche {
        
         // instancia de Camioneta()
         
-        Camioneta mi_camioneta = new Camioneta(); 
+        Camioneta mi_camioneta = new Camioneta("rojo"); 
         
         // aplicando metodos setter
         System.out.println("ingrese las caracteristicas de la camioneta");
