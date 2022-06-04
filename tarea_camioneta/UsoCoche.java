@@ -51,6 +51,6 @@ public class UsoCoche {
         // algunos metodos getter
         System.out.println(mi_camioneta.imprimir_largo());
         System.out.println(mi_camioneta.imprimir_fecha_fabricacion() + "\n\n");
-        System.out.println(mi_camioneta.dar_caracteristicas_generales());   
+        System.out.println(mi_camioneta.imprimir_caracteristicas());   
     }
 }
