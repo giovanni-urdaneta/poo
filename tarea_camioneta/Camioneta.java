@@ -85,26 +85,26 @@ public class Camioneta {
 	}
 	public String imprimir_asientos_cuero() {
 		if(asientos_cuero) {
-			return "> asientos de cuero --> si";
+			return "> tiene asientos de cuero";
 		}
 		else {
-			return "> asientos de cuero --> no";
+			return "> no tiene asientos de cuero";
 		}
 	}
 	public String imprimir_climatizador() {
 		if(climatizador) {
-			return "> climatizador --> si";
+			return "> tiene climatizador";
 		}
 		else {
-			return "> climatizador --> no";
+			return "> no tiene climatizador";
 		}
 	}
 	public String imprimir_vidrios() {
 		if(vidrios_ahumados) {
-			return "> vidrios ahumados --> si";
+			return "> tiene vidrios ahumados";
 		}
 		else {
-			return "> vidrios ahumados --> no";
+			return "> no tiene vidrios ahumados";
 		}
 	}
 	public String dar_caracteristicas_generales() {
