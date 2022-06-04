@@ -4,7 +4,7 @@
 package tarea_camioneta;
 
 public class Camioneta {
-	
+	String color;
 	private int ruedas;
 	private float ancho;
 	private float largo;
@@ -19,7 +19,7 @@ public class Camioneta {
 	boolean vidrios_ahumados;
 	
 	// metodos
-	public Camioneta(color) { //constructor
+	public Camioneta(String color) { //constructor
 		ruedas = 4;
 		ancho = 400;
 		largo = 2000;
