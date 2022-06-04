@@ -52,74 +52,74 @@ public class Camioneta {
 	
 	//metodos getter
 	public String imprimir_ruedas() {
-		return "> ruedas --> " + ruedas;
+		return "\n> ruedas --> " + ruedas;
 	}
 	public String imprimir_ancho() {
-		return "> ancho --> " + ancho;
+		return "\n> ancho --> " + ancho;
 	}
 	public String imprimir_largo() {
-		return "> largo --> " + largo;
+		return "\n> largo --> " + largo;
 	}
 	public String imprimir_peso() {
-		return "> peso --> " + peso;
+		return "\n> peso --> " + peso;
 	}
 	public String imprimir_marca() {
-		return "> marca --> " + marca;
+		return "\n> marca --> " + marca;
 	}
 	public String imprimir_modelo() {
-		return "> modelo --> " + modelo;
+		return "\n> modelo --> " + modelo;
 	}
 	public String imprimir_asientos() {
-		return "> asientos --> " + asientos;
+		return "\n> asientos --> " + asientos;
 	}
 	public String imprimir_fecha_fabricacion() {
-		return "> fecha de fabricacion --> " + fecha_fabricacion;
+		return "\n> fecha de fabricacion --> " + fecha_fabricacion;
 	}
 	public String imprimir_traccion() {
 		if(traccion_automatica) {
-			return "> automatica";
+			return "\n> automatica";
 		}
 		else {
-			return "> sincronica";
+			return "\n> sincronica";
 		}
 	}
 	public String imprimir_asientos_cuero() {
 		if(asientos_cuero) {
-			return "> tiene asientos de cuero";
+			return "\n> tiene asientos de cuero";
 		}
 		else {
-			return "> no tiene asientos de cuero";
+			return "\n> no tiene asientos de cuero";
 		}
 	}
 	public String imprimir_climatizador() {
 		if(climatizador) {
-			return "> tiene climatizador";
+			return "\n> tiene climatizador";
 		}
 		else {
-			return "> no tiene climatizador";
+			return "\n> no tiene climatizador";
 		}
 	}
 	public String imprimir_vidrios() {
 		if(vidrios_ahumados) {
-			return "> tiene vidrios ahumados";
+			return "\n> tiene vidrios ahumados";
 		}
 		else {
-			return "> no tiene vidrios ahumados";
+			return "\n> no tiene vidrios ahumados";
 		}
 	}
 	public String imprimir_caracteristicas() {
-		return "caracteristicas de la camioneta: \n" + 
-				imprimir_ruedas() + "\n" +
-				imprimir_ancho() + "\n" +
-				imprimir_largo() + "\n" +
-				imprimir_peso() + "\n" +
-				imprimir_marca() + "\n" +
-				imprimir_modelo() + "\n" +
-				imprimir_asientos() + "\n" +
-				imprimir_traccion() + "\n" +
-				imprimir_asientos_cuero() + "\n" +
-				imprimir_climatizador() + "\n" +
-				imprimir_fecha_fabricacion() + "\n" +
+		return "\ncaracteristicas de la camioneta: " + 
+				imprimir_ruedas() + 
+				imprimir_ancho() + 
+				imprimir_largo() + 
+				imprimir_peso() + 
+				imprimir_marca() +
+				imprimir_modelo() + 
+				imprimir_asientos() + 
+				imprimir_traccion() + 
+				imprimir_asientos_cuero() + 
+				imprimir_climatizador() + 
+				imprimir_fecha_fabricacion() + 
 				imprimir_vidrios();			
 	}
 }
